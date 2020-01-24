@@ -1,0 +1,3 @@
+[submodule "nsfw_model"]
+	path = nsfw_model
+	url = https://github.com/gantman/nsfw_model

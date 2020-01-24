@@ -2,4 +2,5 @@
 venv
 *.h5
 .idea
-
+test_images
+.python-version

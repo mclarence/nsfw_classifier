@@ -1,7 +1,7 @@
 import os
-import configparser
 import shutil
 import argparse
+
 import logging
 
 parser = argparse.ArgumentParser(description="Classify potential NSFW or SFW images.")
