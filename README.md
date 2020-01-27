@@ -18,7 +18,7 @@ pip install -r requirements.txt
 On windows, pip may fail building a `wrapt`. If this is the case use command prompt and run `set WRAPT_INSTALL_EXTENSIONS=false` before running `pip install -r requirements.txt` again.
 ## Usage
 ```shell script
-usage: main.py [-h] -d DIRS [DIRS ...] [--delete-sfw] [--delete-nsfw]
+usage: NsfwClassifier.py [-h] -d DIRS [DIRS ...] [--delete-sfw] [--delete-nsfw]
                [--delete-other]
 
 Classify potential NSFW or SFW images.
@@ -33,3 +33,4 @@ optional arguments:
 ```
 Specify directories of images to check in the ```--dirs``` argument. Other arguments are self explanatory.
 
+You can also run InteractiveMode.py for an interactive menu to run the application.
